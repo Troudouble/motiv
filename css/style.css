@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+*,*:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0}
+a, a:visited {text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400}
+
+
+
+body{
+	font-family: 'Caveat', cursive;
+	color: #19160A;
+	font-size: 36px;
+	font-weight: 400;
+	margin: 0 auto;
+	text-shadow: 1px 1px 1px 1px  #000;
+	background: url(../img/ESO-Greymoore-Einsamkeit-1536x864.png) 50%/100% auto no-repeat fixed;
+}
+.mainblock{
+	background: rgba(255,255,255,0.7) 0 0 no-repeat fixed;
+	padding: 10px 50px;
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1200px;
+	
+
+}
+h1{
+	text-align: center;
+	margin: 125px 0 0 0;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 45px;
+	
+}
+h2{
+	text-align: center;
+	margin: 125px 0 0 0;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 45px;
+}
+.img1{
+	
+	
+}
+img{
+	display: block;
+	margin: 25px auto 35px auto;
+	max-width: 276px;
+	width: 100%;
+	border: 5px solid #000;
+	
+}
+.link{
+	color: #923;
+	text-decoration: underline;
+}
+.link:hover{
+	color: #DC81E8;
+}
+.list1{
+	
+	margin: 10px 0 0 5%;
+}
+.maintext1:first-letter{
+	color: #000;
+	font-size: 40px;
+}
+.maintext1{
+	margin: 15px 0 0 0;
+	text-indent: 5%;
+
+}
+.list2{
+	margin: 10px 0 0 5%;
+}
+.list2 li:before{
+	content: '';
+	width: 2px;
+	height: 2px;
+	border: 3px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 7px 8px 0;
+}
+.textmiddle{
+	margin: 15px 0 0 0;
+	text-indent: 5%;
+}
+.textmiddle:first-letter{
+	color: #000;
+	font-size: 40px;
+}
+.textend{
+	margin: 15px 0 0 0;
+	text-indent: 5%;	
+}
+.dang1{
+	text-transform: uppercase;
+}
+.textend:first-letter{
+	color: #000;
+	font-size: 40px;
+
+}
